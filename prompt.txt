@@ -1,0 +1,11 @@
+A Zero-Shot Prompt means giving an AI a task without providing examples.
+You only tell the AI what to do, and it tries to answer using its trained knowledge.
+
+Basic Structure
+Instruction + Input
+Simple Example
+Prompt
+Translate this sentence into French:
+"I love programming."
+Output
+J'aime programmer.
