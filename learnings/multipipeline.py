@@ -9,4 +9,4 @@ qa=pipeline('question-answering')
 context = "Python was created by Guido van Rossum and released in 1991. It is widely used in AI."
 summ=pipeline('summarization')
 long_text="Generative AI refers to AI System that can generate new context..." * 5
-print(sum(long_text, max_length=60, min_length=20))
+print(summ(long_text, max_length=60, min_length=20))
