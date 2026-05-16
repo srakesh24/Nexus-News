@@ -9,3 +9,4 @@ embeddings = model.encode(sentences)
 print(f"Shape: {embeddings.shape}")
 
 print(f"First Embedding (First 5 values): {embeddings[0][:5]}...")
+
